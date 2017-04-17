@@ -1,2 +1,2 @@
 # calculator
-Calculadora en html y javascript.
+Calculadora con diez funciones de cálculo básicas.
