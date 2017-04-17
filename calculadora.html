@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <h1>Buenos días, bienvenido a la calculadora de Miguel</h1>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<script src="funciones.js"></script>
+
+<body onload="inic()">
+
+<div id="calc">
+
+<input type="text" id="in" onclick="reset()">
+
+    <table>
+    <tr>
+        <th><button onclick="suma()">+</button></th>
+        <th><button onclick="resta()">-</button></th>
+        <th><button onclick="multiplica()">*</button></th>
+        <th><button onclick="divide()">/</button></th>
+    </tr>
+
+    <tr>
+        <th><button onclick="potencia()">x^y</button></th>
+        <th><button onclick="cuadrado()">x<sup>2</sup></button></th>
+        <th><button onclick="inverso()">1/x</button></th>
+        <th><button onclick="calcular()">=</button></th>
+    </tr>
+
+    <tr>
+        <th><button onclick="parteEntera()">parte_entera(x)</button></th>
+        <th><button onclick="raiz()">sqrt(x)</button></th>
+    </tr>
+
+    </table>
+
+</div>
+
+
+<footer><strong>©m.omenaca</strong></footer>
+</body>
+</html>
